@@ -140,6 +140,17 @@ const eleSelectValue = parseInt(eleTypeSelect.value);
 
 const test = 'solid';
 
+if (eleSelectValue == 1) {
+  icons.splice(8, 8);
+}
+else if (eleSelectValue == 2) {
+  icons.splice(0, 8);
+  icons.splice(4, 4);
+}
+else if (eleSelectValue == 3) {
+  icons.splice(0, 12);
+}
+
 icons.forEach((element) => {
   //make div
   const eleDivCard = document.createElement('div');
