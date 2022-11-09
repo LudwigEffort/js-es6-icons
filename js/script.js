@@ -136,6 +136,7 @@ const icons =   [
 
 const eleTypeSelect = document.querySelector('#type-select');
 const eleCardsContainer = document.querySelector('.cards-container');
+const eleSelectValue = parseInt(eleTypeSelect.value);
 
 const test = 'solid';
 
@@ -148,9 +149,13 @@ icons.forEach((element) => {
   const eleIcon = document.createElement('i');
   eleIcon.classList.add(`${element.prefix + test}`);
   eleIcon.classList.add(`${element.prefix + element.name}`);
+  eleIcon.setAttribute("style", "color:"+ element.color +";");
   eleDivCard.append(eleIcon);
   //make title
   const eleTitle = document.createElement('h4');
   eleTitle.innerHTML = element.name;
   eleDivCard.append(eleTitle);
 });
+
+
+//sdelectFilter();
