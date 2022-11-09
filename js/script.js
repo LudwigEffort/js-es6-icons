@@ -17,7 +17,7 @@ Inizialmente può essere sufficiente stampare dei semplici div, senza alcuno sti
 */
 
 //Data
-[
+const icons =   [
 	{
 		name: 'cat',
 		prefix: 'fa-',
@@ -131,3 +131,6 @@ Inizialmente può essere sufficiente stampare dei semplici div, senza alcuno sti
 		color: 'blue'
 	}
 ];
+
+//console.log(icons);
+
