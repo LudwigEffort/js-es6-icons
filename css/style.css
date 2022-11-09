@@ -29,9 +29,9 @@ h1{
 
 .card {
     flex: 0 0 calc((100% - 8rem) / 5);
-    font-size: 2rem;
+    font-size: 3rem;
     background-color: antiquewhite;
-    padding: 1rem;
+    padding: 2rem 1rem;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
