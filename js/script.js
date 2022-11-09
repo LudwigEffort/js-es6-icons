@@ -150,4 +150,7 @@ icons.forEach((element) => {
   eleIcon.classList.add(`${element.prefix + element.name}`);
   eleDivCard.append(eleIcon);
   //make title
+  const eleTitle = document.createElement('h4');
+  eleTitle.innerHTML = element.name;
+  eleDivCard.append(eleTitle);
 });

@@ -29,7 +29,6 @@ h1{
 
 .card {
     flex: 0 0 calc((100% - 8rem) / 5);
-    font-size: 3rem;
     background-color: antiquewhite;
     padding: 2rem 1rem;
     border-radius: 1rem;
@@ -41,4 +40,9 @@ h1{
 
 i {
     display: block;
+    font-size:  3rem;
+}
+
+.card h4{
+    font-size: 1.5rem;
 }
